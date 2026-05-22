@@ -1,0 +1,110 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  background: #f4f4f4;
+
+  padding-top: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
+
+  font-family: "Proxima Nova", sans-serif;
+  color: #000;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- NAV ---------- */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.nav-links {
+  display: flex;
+  gap: 92px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* ---------- HERO ---------- */
+
+.hero {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: 760px 613px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+/* LEFT */
+
+.hero-left {
+  align-self: center;
+}
+
+.hero-left h1 {
+  font-size: 86px;
+  font-weight: 300;
+
+  line-height: 0.94;
+  letter-spacing: 0.05em;
+
+  margin: 0;
+}
+
+/* RIGHT */
+
+.hero-right {
+  align-self: center;
+
+  transform: translateX(-90px) translateY(105px);
+}
+
+.hero-right p {
+  width: 613px;
+
+  font-size: 23px;
+  font-weight: 300;
+
+  line-height: 1.22;
+
+  margin: 0;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 1200px) {
+  .hero {
+    grid-template-columns: 1fr;
+    justify-content: start;
+    gap: 40px;
+  }
+
+  .hero-right {
+    transform: none;
+  }
+
+  .hero-left h1 {
+    font-size: 72px;
+  }
+}

@@ -1,0 +1,159 @@
+.about-page {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  background: #f4f4f4;
+  padding: 48px;
+
+  font-family: "Proxima Nova", sans-serif;
+  color: #000;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAV */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.logo {
+  text-decoration: none;
+  color: #000;
+
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1;
+
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 92px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.nav-links .active {
+  font-weight: 700;
+}
+
+/* CONTENT */
+
+.about-content {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: minmax(430px, 620px) minmax(340px, 520px);
+  justify-content: center;
+  align-items: center;
+
+  gap: 70px;
+}
+
+/* TEXT */
+
+.about-text {
+  max-width: 620px;
+}
+
+.about-text p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.25;
+
+  margin: 10px 10px 20px 10px;
+}
+
+
+
+/* IMAGE */
+
+.about-image,
+.about-image-placeholder {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 4 / 5;
+
+  object-fit: cover;
+  background: #d9d9d9;
+
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1200px) {
+  .about-content {
+    grid-template-columns: 1fr 420px;
+    gap: 50px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .about-image,
+  .about-image-placeholder {
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-page {
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+    padding: 32px 24px;
+  }
+
+  .navbar {
+    gap: 32px;
+  }
+
+  .nav-links {
+    gap: 28px;
+  }
+
+  .logo,
+  .nav-links a {
+    font-size: 18px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 36px;
+
+    padding-top: 80px;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+
+  .about-text p {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+
+  .about-image,
+  .about-image-placeholder {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
