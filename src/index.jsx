@@ -4,6 +4,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage/aboutPage';
+import ContactMe from "./pages/ContactMe/contactMe";
 
 import './global.css';
 
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactMe />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>,
