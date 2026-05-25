@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './aboutPage.css';
+import portrait from "../../img/portrait.png";
 
 export default function AboutPage() {
   return (
@@ -59,7 +60,7 @@ export default function AboutPage() {
           </p>
         </section>
 
-        <div className="about-image-placeholder"></div>
+        <img className="about-image" src={portrait} alt="Portrait" />
       </main>
     </div>
   );
