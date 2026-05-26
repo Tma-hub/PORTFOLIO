@@ -44,6 +44,9 @@
   line-height: 1;
 }
 
+.nav-links a.active {
+  font-weight: 700;
+}
 /* ---------- HERO ---------- */
 
 .hero {

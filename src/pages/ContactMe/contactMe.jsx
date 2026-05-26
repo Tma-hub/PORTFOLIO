@@ -14,9 +14,14 @@ export default function ContactMe() {
         </Link>
 
         <nav className="nav-links">
-          <Link to="/about">About</Link>
-          <Link to="/portfolio">Work</Link>
-          <Link to="/contact">Contact me</Link>
+        <Link to="/about">About</Link>
+
+<Link to="/portfolio">Work</Link>
+
+<Link to="/contact" className="active">
+  Contact me
+
+</Link>
         </nav>
       </header>
 
