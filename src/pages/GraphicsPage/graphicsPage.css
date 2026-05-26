@@ -1,0 +1,91 @@
+.graphics-page {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  background: #f4f4f4;
+
+  padding: 48px;
+
+  font-family: "Proxima Nova", sans-serif;
+  color: #000;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- CONTENT ---------- */
+
+.graphics-content {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- INTRO ---------- */
+
+.graphics-intro {
+  margin-top: 110px;
+  width: 650px;
+}
+
+.graphics-intro h1 {
+  margin: 0 0 24px 0;
+
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.graphics-intro p {
+  margin: 0;
+
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+/* ---------- PROJECTS ---------- */
+
+.graphics-grid {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 74px;
+
+  margin-top: -80px;
+}
+
+.graphics-item {
+  text-decoration: none;
+  color: #000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.graphics-image {
+  width: 260px;
+  height: 260px;
+
+  border: 1px solid #000;
+  background: #f4f4f4;
+
+  transition: 0.2s ease;
+}
+
+.graphics-item:hover .graphics-image {
+  transform: scale(1.02);
+}
+
+.graphics-item p {
+  margin-top: 18px;
+
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}

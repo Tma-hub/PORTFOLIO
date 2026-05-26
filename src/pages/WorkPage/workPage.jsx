@@ -25,9 +25,9 @@ export default function WorkPage() {
           Fashion
         </Link>
 
-        <Link to="#" className="work-card">
-          Graphics
-        </Link>
+        <Link to="/graphics" className="work-card graphics-card">
+  Graphics
+</Link>
 
         <Link to="#" className="work-card">
           Digital<br />design

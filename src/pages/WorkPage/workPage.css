@@ -41,13 +41,18 @@
 
   text-align: center;
   text-decoration: none;
-  color: #000;
+  color: black;
 
   font-size: 32px;
   font-weight: 400;
   line-height: 1.15;
 }
-
+.graphics-card {
+  background-image: url("../../img/graphics.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
 .work-card:hover {
   font-weight: 700;
 }
