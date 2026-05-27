@@ -56,3 +56,31 @@
 .work-card:hover {
   font-weight: 700;
 }
+
+.fashion-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.fashion-card::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background-image: url("../../img/fashion.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  opacity: 0.6;
+
+  z-index: 0;
+}
+
+.fashion-card span {
+  position: relative;
+  z-index: 1;
+
+  color: white;
+}

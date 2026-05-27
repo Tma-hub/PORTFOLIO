@@ -21,9 +21,9 @@ export default function WorkPage() {
       </header>
 
       <main className="work-content">
-        <Link to="#" className="work-card">
-          Fashion
-        </Link>
+        <Link to="#" className="work-card fashion-card">
+  <span>Fashion</span>
+</Link>
 
         <Link to="/graphics" className="work-card graphics-card">
   Graphics
