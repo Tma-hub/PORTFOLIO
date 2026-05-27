@@ -29,9 +29,9 @@ export default function WorkPage() {
   Graphics
 </Link>
 
-        <Link to="#" className="work-card">
-          Digital<br />design
-        </Link>
+        <Link to="#" className="work-card digital-card">
+  <span>Digital<br />design</span>
+</Link>
       </main>
     </div>
   );

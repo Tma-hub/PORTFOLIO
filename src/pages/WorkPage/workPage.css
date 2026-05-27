@@ -84,3 +84,31 @@
 
   color: white;
 }
+
+.digital-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.digital-card::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background-image: url("../../img/digital.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  opacity: 0.6;
+
+  z-index: 0;
+}
+
+.digital-card span {
+  position: relative;
+  z-index: 1;
+
+  color: rgb(0, 0, 0);
+}
