@@ -21,7 +21,7 @@ export default function WorkPage() {
       </header>
 
       <main className="work-content">
-        <Link to="#" className="work-card fashion-card">
+        <Link to="/fashion" className="work-card fashion-card">
   <span>Fashion</span>
 </Link>
 
@@ -29,7 +29,7 @@ export default function WorkPage() {
   Graphics
 </Link>
 
-        <Link to="#" className="work-card digital-card">
+        <Link to="/digital" className="work-card digital-card">
   <span>Digital<br />design</span>
 </Link>
       </main>
