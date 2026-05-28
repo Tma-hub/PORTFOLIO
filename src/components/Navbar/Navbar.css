@@ -1,0 +1,90 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+/* ---------- LEFT ---------- */
+
+.logo {
+  text-decoration: none;
+  color: #000;
+
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+/* ---------- RIGHT ---------- */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 74px;
+}
+
+/* sjednocení úplně všeho v navbaru */
+
+.nav-links a,
+.theme-toggle span {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1;
+
+  color: #000;
+  text-decoration: none;
+}
+
+/* ---------- TOGGLE ---------- */
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  cursor: pointer;
+}
+
+.theme-toggle img {
+  width: 46px;
+  height: auto;
+
+  display: block;
+}
+
+/* ---------- HOVER ---------- */
+
+.nav-links a:hover {
+  opacity: 0.6;
+}
+
+/* ---------- DARK MODE ---------- */
+
+body.dark-mode {
+  background: #242424;
+}
+
+body.dark-mode .home,
+body.dark-mode .about-page,
+body.dark-mode .work-page,
+body.dark-mode .digital-page,
+body.dark-mode .graphics-page,
+body.dark-mode .fashion-page,
+body.dark-mode .contact-page {
+  background: #242424;
+  color: #f4f4f4;
+}
+
+body.dark-mode .logo,
+body.dark-mode .nav-links a,
+body.dark-mode .theme-toggle span,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p {
+  color: #f4f4f4;
+}

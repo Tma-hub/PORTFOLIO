@@ -21,34 +21,9 @@
   box-sizing: border-box;
 }
 
-.logo,
-.nav-links a,
 .fashion-item {
   text-decoration: none;
   color: inherit;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-
-  padding: 42px 44px 0;
-}
-
-.logo {
-  font-size: 20px;
-}
-
-.nav-links {
-  display: flex;
-  gap: 82px;
-
-  font-size: 20px;
-}
-
-.nav-links .active {
-  font-weight: 700;
 }
 
 .fashion-content {
@@ -129,10 +104,6 @@
     padding: 32px;
   }
 
-  .navbar {
-    padding: 24px 0 0;
-  }
-
   .fashion-content {
     padding: 80px 0 64px;
   }
@@ -143,9 +114,6 @@
     gap: 46px 42px;
   }
 
-  .nav-links {
-    gap: 32px;
-  }
 
   .fashion-intro h1 {
     font-size: 56px;
@@ -159,19 +127,7 @@
     padding: 20px;
   }
 
-  .navbar {
-    flex-direction: column;
 
-    gap: 24px;
-
-    padding: 0;
-  }
-
-  .nav-links {
-    gap: 20px;
-
-    font-size: 18px;
-  }
 
   .fashion-content {
     padding: 56px 0 48px;

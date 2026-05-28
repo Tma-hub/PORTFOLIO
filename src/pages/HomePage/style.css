@@ -14,61 +14,7 @@
   flex-direction: column;
 }
 
-/* ---------- NAV ---------- */
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.logo {
-  font-size: 17px;
-  font-weight: 300;
-  line-height: 1;
-}
-
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 74px;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #000;
-
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 1;
-}
-
-/* ---------- THEME TOGGLE ---------- */
-
-.theme-toggle {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-
-  cursor: pointer;
-
-  margin-right: -18px;
-}
-
-.theme-toggle span {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1;
-
-  color: #777;
-}
-
-.theme-toggle img {
-  width: 46px;
-  height: auto;
-
-  display: block;
-}
 
 /* ---------- HERO ---------- */
 
@@ -119,20 +65,6 @@
   margin: 0;
 }
 
-/* ---------- DARK MODE ---------- */
-
-body.dark-mode .home {
-  background: #242424;
-  color: #f4f4f4;
-}
-
-body.dark-mode .home .logo,
-body.dark-mode .home .nav-links a,
-body.dark-mode .home .theme-toggle span,
-body.dark-mode .home h1,
-body.dark-mode .home p {
-  color: #f4f4f4;
-}
 
 /* ---------- RESPONSIVE ---------- */
 
