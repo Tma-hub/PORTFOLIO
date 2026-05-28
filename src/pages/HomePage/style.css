@@ -5,11 +5,9 @@
 
   background: #f4f4f4;
 
-  padding-top: 48px;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding: 72px 82px 70px;
+  box-sizing: border-box;
 
-  font-family: "Proxima Nova", sans-serif;
   color: #000;
 
   display: flex;
@@ -25,38 +23,65 @@
 }
 
 .logo {
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 300;
   line-height: 1;
 }
 
 .nav-links {
   display: flex;
-  gap: 92px;
+  align-items: center;
+  gap: 74px;
 }
 
 .nav-links a {
   text-decoration: none;
   color: #000;
 
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1;
 }
 
-.nav-links a.active {
-  font-weight: 700;
+/* ---------- THEME TOGGLE ---------- */
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  cursor: pointer;
+
+  margin-right: -18px;
 }
+
+.theme-toggle span {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1;
+
+  color: #777;
+}
+
+.theme-toggle img {
+  width: 46px;
+  height: auto;
+
+  display: block;
+}
+
 /* ---------- HERO ---------- */
 
 .hero {
   flex: 1;
 
   display: grid;
-  grid-template-columns: 760px 613px;
+  grid-template-columns: 760px 540px;
 
   justify-content: center;
   align-items: center;
+
+  column-gap: 20px;
 }
 
 /* LEFT */
@@ -70,7 +95,7 @@
   font-weight: 300;
 
   line-height: 0.94;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
 
   margin: 0;
 }
@@ -80,18 +105,33 @@
 .hero-right {
   align-self: center;
 
-  transform: translateX(-90px) translateY(105px);
+  transform: translateX(-70px) translateY(82px);
 }
 
 .hero-right p {
-  width: 613px;
+  width: 640px;
 
   font-size: 23px;
   font-weight: 300;
 
-  line-height: 1.22;
+  line-height: 1.2;
 
   margin: 0;
+}
+
+/* ---------- DARK MODE ---------- */
+
+body.dark-mode .home {
+  background: #242424;
+  color: #f4f4f4;
+}
+
+body.dark-mode .home .logo,
+body.dark-mode .home .nav-links a,
+body.dark-mode .home .theme-toggle span,
+body.dark-mode .home h1,
+body.dark-mode .home p {
+  color: #f4f4f4;
 }
 
 /* ---------- RESPONSIVE ---------- */
@@ -108,6 +148,6 @@
   }
 
   .hero-left h1 {
-    font-size: 72px;
+    font-size: 64px;
   }
 }
