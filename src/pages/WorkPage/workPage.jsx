@@ -30,7 +30,9 @@ export default function WorkPage() {
 </Link>
 
         <Link to="/digital" className="work-card digital-card">
-  <span>Digital<br />design</span>
+  <span>
+    Digital <br /> design
+  </span>
 </Link>
       </main>
     </div>

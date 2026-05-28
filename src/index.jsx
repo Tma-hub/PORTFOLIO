@@ -8,6 +8,7 @@ import ContactMe from "./pages/ContactMe/contactMe";
 import WorkPage from "./pages/WorkPage/workPage";
 import GraphicsPage from "./pages/GraphicsPage/graphicsPage";
 import FashionPage from "./pages/FashionPage/fashionPage";
+import DigitalPage from "./pages/DigitalPage/digitalPage";
 
 
 import './global.css';
@@ -22,6 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Route path="/contact" element={<ContactMe />} />
   <Route path="/graphics" element={<GraphicsPage />} />
   <Route path="/fashion" element={<FashionPage />} />
+  <Route path="/digital" element={<DigitalPage />} />
 </Routes>
     </HashRouter>
   </React.StrictMode>,
