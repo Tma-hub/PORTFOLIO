@@ -2,10 +2,17 @@ import Navbar from "../../components/Navbar/Navbar";
 
 import "./style.css";
 
-export default function HomePage() {
+export default function HomePage({
+  darkMode,
+  setDarkMode,
+}) {
   return (
     <div className="home">
-      <Navbar />
+      <Navbar
+        darkMode={darkMode}
+        setDarkMode={setDarkMode}
+        showThemeToggle={true}
+      />
 
       <main className="hero">
         <div className="hero-left">
@@ -20,8 +27,9 @@ export default function HomePage() {
 
         <div className="hero-right">
           <p>
-            specialized in Sportswear and Apparel Design, expanding into Digital
-            Design and Front End Development
+            specialized in Sportswear and Apparel Design,
+            expanding into Digital Design and Front End
+            Development
           </p>
         </div>
       </main>
