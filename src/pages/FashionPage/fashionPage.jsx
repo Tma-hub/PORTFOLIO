@@ -5,6 +5,10 @@ import ARVEN from "../../img/fashion_photos/ARVEN.png";
 import ELVAR from "../../img/fashion_photos/ELVAR.png";
 import YAVIRA from "../../img/fashion_photos/YAVIRA.png";
 import SAMANDRA from "../../img/fashion_photos/SAMANDRA.png";
+import KIMIKO from "../../img/fashion_photos/KIMIKO.png";
+import ANATU from "../../img/fashion_photos/ANATU.png";
+import NOVIRA from "../../img/fashion_photos/NOVIRA.png";
+import ARJAN from "../../img/fashion_photos/ARJAN.png";
 
 import "./fashionPage.css";
 
@@ -13,6 +17,10 @@ const fashionItems = [
   { title: "ELVAR", image: ELVAR },
   { title: "YAVIRA", image: YAVIRA },
   { title: "SAMANDRA", image: SAMANDRA },
+  { title: "KIMIKO", image: KIMIKO },
+  { title: "ANATU", image: ANATU },
+  { title: "NOVIRA", image: NOVIRA },
+  { title: "ARJAN", image: ARJAN },
 ];
 
 export default function FashionPage() {
