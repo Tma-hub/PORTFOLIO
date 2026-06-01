@@ -9,6 +9,7 @@ import KIMIKO from "../../img/fashion_photos/KIMIKO.png";
 import ANATU from "../../img/fashion_photos/ANATU.png";
 import NOVIRA from "../../img/fashion_photos/NOVIRA.png";
 import ARJAN from "../../img/fashion_photos/ARJAN.png";
+import MEHR from "../../img/fashion_photos/MEHR.png";
 
 import "./fashionPage.css";
 
@@ -21,6 +22,7 @@ const fashionItems = [
   { title: "ANATU", image: ANATU },
   { title: "NOVIRA", image: NOVIRA },
   { title: "ARJAN", image: ARJAN },
+  { title: "MEHR", image: MEHR },
 ];
 
 export default function FashionPage() {
