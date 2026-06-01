@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import ARVEN from "../../img/fashion_photos/ARVEN.png";
 import ELVAR from "../../img/fashion_photos/ELVAR.png";
 import YAVIRA from "../../img/fashion_photos/YAVIRA.png";
+import SAMANDRA from "../../img/fashion_photos/SAMANDRA.png";
 
 import "./fashionPage.css";
 
@@ -11,6 +12,7 @@ const fashionItems = [
   { title: "ARVEN", image: ARVEN },
   { title: "ELVAR", image: ELVAR },
   { title: "YAVIRA", image: YAVIRA },
+  { title: "SAMANDRA", image: SAMANDRA },
 ];
 
 export default function FashionPage() {
