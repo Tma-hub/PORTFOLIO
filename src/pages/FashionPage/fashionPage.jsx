@@ -11,13 +11,19 @@ import ANATU from "../../img/fashion_photos/ANATU.png";
 import NOVIRA from "../../img/fashion_photos/NOVIRA.png";
 import ARJAN from "../../img/fashion_photos/ARJAN.png";
 import MEHR from "../../img/fashion_photos/MEHR.png";
+import VENSA from "../../img/fashion_photos/VENSA.png";
+import NARIYO from "../../img/fashion_photos/NARIYO.png";
+import SOLIN from "../../img/fashion_photos/SOLIN.png"
 
 import "./fashionPage.css";
 
 const sportItems = [
  { title: "KIMIKO", image: KIMIKO },
   { title: "SAMANDRA", image: SAMANDRA },
-   { title: "MEHR", image: MEHR }
+   { title: "MEHR", image: MEHR },
+   { title: "NARIYO", image: NARIYO },
+   { title: "VENSA", image: VENSA },
+   { title: "SOLIN", image: SOLIN }
 ];
 
 const lifestyleItems = [
