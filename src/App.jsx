@@ -8,6 +8,7 @@ import ContactMe from "./pages/ContactMe/contactMe";
 import FashionPage from "./pages/FashionPage/fashionPage";
 import GraphicsPage from "./pages/GraphicsPage/graphicsPage";
 import DigitalPage from "./pages/DigitalPage/digitalPage";
+import VisualIdentityPage from "./components/Vizual_Identity/VisualIdentityPage";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -32,10 +33,10 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/portfolio" element={<WorkPage />} />
         <Route path="/contact" element={<ContactMe />} />
-
         <Route path="/fashion" element={<FashionPage />} />
         <Route path="/graphics" element={<GraphicsPage />} />
         <Route path="/digital" element={<DigitalPage />} />
+       <Route path="/visual-identity" element={<VisualIdentityPage />} />
       </Routes>
     </BrowserRouter>
   );

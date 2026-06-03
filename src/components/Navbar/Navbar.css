@@ -4,8 +4,9 @@
   align-items: center;
 
   width: 100%;
+  padding: 90px 105px 0;
+  box-sizing: border-box;
 }
-
 /* ---------- LEFT ---------- */
 
 .logo {
@@ -23,7 +24,7 @@
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 74px;
+  gap: 68px;
 }
 
 /* sjednocení úplně všeho v navbaru */

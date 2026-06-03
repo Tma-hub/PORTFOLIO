@@ -38,10 +38,10 @@ export default function GraphicsPage() {
             <p>Textile graphic</p>
           </article>
 
-          <article className="graphics-item">
+          <Link to="/visual-identity" className="graphics-item">
             <div className="graphics-image"></div>
             <p>Visual identity</p>
-          </article>
+          </Link>
         </section>
       </main>
     </div>
