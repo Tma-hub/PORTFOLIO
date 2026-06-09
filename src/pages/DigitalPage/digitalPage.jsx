@@ -1,21 +1,11 @@
-import { Link } from "react-router-dom";
 import "./digitalPage.css";
 import cloMockup from "../../img/clo_mockup.png";
+import Navbar from "../../components/Navbar/Navbar";
 
 function DigitalPage() {
   return (
     <div className="digital-page">
-      <nav className="navbar">
-        <Link to="/" className="logo">
-          Tereza Matousova
-        </Link>
-
-        <div className="nav-links">
-          <Link to="/about">About</Link>
-          <Link to="/work">Work</Link>
-          <Link to="/contact">Contact me</Link>
-        </div>
-      </nav>
+      <Navbar />
 
       <main className="digital-content">
         <div className="digital-image">
